@@ -5,20 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+.main{
+  width:100%;
+  height:75px
+}
+
+.nav-bar{
+  width:1200px;
+  height:75px;
+  margin:auto;
+}
+
+.icon{
+  width:200px; 
+  float:left; 
+   height:70px; 
+}
+
+.logo{
+  color:#ff7200;
+  font-size:20px;
+  font-family:Arial;
+  padding-left:20px;
+  float:left;
+  padding-top:55px;
+}
+
+.menu{
+  width:400px;
+  height:100px;
+  float:right;
+}
+
+ul{
+  display:flex;
+  float:left;
+  justify-content:center;
+  align-item:center;
+}
+
+ul li{
+  list-style:none;
+  margin-right:10px;
+  margin-top:10px;
+  font-size:16px;
+}
+
+ul li a{
+  text-decoration:none;
+  color:black;
+  font-family:Arial;
+  font-weight:bold;
+  transitional:0.4s ease-in-out;
+  
+}
+
+#btn{
+  width:20px;
+  border:none
+}
+
+
+    </style>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <main>
-        <div class="main">
-            <div class="nav-bar">
-              <div class="icon">
-              <h2 class="logo">ODC-Showcase</h2>
-              </div>
-              
-              
-            </div>
-            
-          </div>
-    </main>
+    <div class="main">
+      <div class="nav-bar">
+        <div class="icon">
+          <a href="#">
+        <h2 class="logo">ODC-Showcase</h2>
+      </a>
+        </div>
+        
+        
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Create Couse</a></li> 
+          <li><a href="#">Add Participant</a></li>
+          <li>
+          <select name="logout" id="">
+            <option value="logout"></option>
+            <option value="logout">Logout</option>
+          </select>
+            </li>
+        </ul>
+        
+        
+      </div>
+    </div>
 </body>
 </html>
