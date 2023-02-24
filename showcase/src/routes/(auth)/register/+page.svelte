@@ -10,32 +10,37 @@
 					<h5 class="text-center">Register Account</h5>
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputEmail1" class="form-label">User Name</label>
+					<label for="exampleInputUsername" class="form-label">Username</label>
 					<input
-						type="email"
+						type="text"
 						class="form-control"
-						id="exampleInputEmail1"
-						aria-describedby="emailHelp"
+						id="exampleInputUsername"
+						aria-describedby="usernameHelp"
 					/>
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Email</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" />
+					<label for="exampleInputEmail" class="form-label">Email</label>
+					<input type="email" class="form-control" id="exampleInputEmail" />
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Password</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" />
+					<label for="exampleInputPassword" class="form-label">Password</label>
+					<input type="password" class="form-control" id="exampleInputPassword" />
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Phone Number</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" />
+					<label for="exampleInputContact" class="form-label">Phone Number</label>
+					<input type="text" class="form-control" id="exampleInputContact" />
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Address</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" />
-					<button type="submit" class="btn btn-lg w-100 mt-2 btn-primary">Register</button>
-					<br /><br /> or <a href="login">Login</a>
+					<label for="exampleInputAddrress" class="form-label">Address</label>
+					<input type="address" class="form-control" id="exampleInputAddress" />
 				</div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-lg w-100 mt-2 btn-primary">Register</button> 
+                    <p class="text-center">
+                        or <br /><a href="login">Login</a>
+                    </p>
+                </div>
 			</form>
 		</div>
 	</div>
